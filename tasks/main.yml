@@ -40,6 +40,3 @@
         mode: u=rwx,g=r-x,o=r-x
     when: command_socat.rc != 0
   when: ansible_os_family == "Darwin"
-
-
-
